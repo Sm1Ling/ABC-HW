@@ -5,6 +5,9 @@ entry start
 section 'data' data readable writeable
 
         EnterString db 'Write the string',10,0    ;Строки для вывода 10 - модификатор перехода на новую строку, 0 - модификатор конца строки
+        YourString db 'Your String: ',10,0   ; строка чтобы пользователь точно увидел что ввел правильно и что будет обрабатываться
+        MString db 'Modified String: ',10,0 ;чтобы пользователь точно догнал что это вывод
+        estring db '',10,0
         tempString  db '%s', 0         ;Для ввода строк   %s - значит туда могут передаваться строки
         A db 256 dup(?) ; массив для хранения букв введенной строки
         B db 256 dup(?) ; массив для хранения букв с обработанной строки
@@ -18,12 +21,26 @@ start:
         push tempString
         call [scanf] ; вызов функции считывания строки и записывания ее в массив
 
+
+        push YourString
+        call [printf]
+
+        push A
+        call [printf]
+        push estring
+        call [printf]
+
         push B
         push A
         call toLower  ; вызов метода аналогичного toLower
 
-        push B
+
+
+
+        push MString
         call [printf] ; вывод результата
+        push B
+        call [printf]
 
         call [getch] ; ожидание нажатия клавиши
 
