@@ -1,0 +1,14 @@
+﻿  DeterminantOpenMP.cpp
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(57,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(59,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(71,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(74,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(76,10): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(76,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(78,15): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(78,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(80,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(80,24): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(104,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\DeterminantOpenMP.cpp(149,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  DeterminantOpenMP.vcxproj -> D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\Debug\DeterminantOpenMP.exe

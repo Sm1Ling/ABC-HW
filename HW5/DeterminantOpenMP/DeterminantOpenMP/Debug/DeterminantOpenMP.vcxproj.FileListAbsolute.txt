@@ -1,0 +1,1 @@
+D:\Study\Sharajnoye\ABC\ABC-HW\HW5\DeterminantOpenMP\DeterminantOpenMP\Debug\DeterminantOpenMP.vcxproj.CopyComplete
